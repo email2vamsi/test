@@ -27,7 +27,7 @@ for index, row in df.iterrows():
 #        count +=1
         mylist.append(index)
         
-#print(count)
+#print(count) Vamsi
 #print(mylist)
 
 reqdf = df.take(mylist)
